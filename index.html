@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Manipulano tabelas com JS</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <H1>Lista de Alunos</H1>
+        <p>Exemplo de como manipular tabelas com JavaScript</p>
+        <div id="content">
+            <table id="tblAlunos" cellspacing="5" cellpadding="5">        
+                <thead>
+                    <tr>
+                        <th class="thRA">RA</th>
+                        <th class="thNome">Nome</th>
+                    </tr>
+                </thead>
+                <tbody id="tblAlunosDados">
+                </tbody>
+            </table>
+            <div id="commands">
+                <button
+                    type="button" 
+                    onclick="carregarAlunos()"
+                    id="btnCarregarDados" 
+                    name="btnCarregarDados">
+                    Carregar Alunos
+                </button>
+            </div>
+        </div>
+    </body>
+</html>

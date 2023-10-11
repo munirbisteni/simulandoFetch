@@ -1,0 +1,40 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.linhaPar{
+    background-color: #dbdbdb;
+}
+.linhaImpar{
+    background-color: #c6c6c6;
+}
+#tblAlunos{
+    width: 100%;
+}
+.thRA{
+    width: 15%;
+    text-align: left;
+}
+.thNome{
+    width: 85%;
+    text-align: left;
+}
+tbody tr:hover{
+    background-color: rgb(129, 188, 255);
+}
+
+#btnCarregarDados{
+    margin-top: 30px;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid darkgray;
+}
+#content{           
+    margin: 0 auto;
+    width: 70%;
+}
+
+#commands{
+    text-align: center;
+}
